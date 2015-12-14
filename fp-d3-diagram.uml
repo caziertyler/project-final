@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>PHP</ID>
+  <OriginalElement>\Notes\Domain\Entity\UserRepositoryInterface</OriginalElement>
+  <nodes>
+    <node x="348.0" y="301.0">\Notes\Persistence\Entity\MysqlUserRepository</node>
+    <node x="685.0" y="721.0">\Notes\Domain\Entity\UserBuilder</node>
+    <node x="238.5" y="619.0">\Notes\Db\Adapter\DbAdapterInterface</node>
+    <node x="13.0" y="1084.0">\Notes\Domain\ValueObject\StringLiteral</node>
+    <node x="271.5" y="1186.0">\Notes\Domain\Entity\UserFactory</node>
+    <node x="0.0" y="278.0">\Notes\Persistence\Entity\InMemoryUserRepository</node>
+    <node x="773.0" y="619.0">\Notes\Domain\BuilderInterface</node>
+    <node x="1038.0" y="619.0">\Notes\Domain\Entity\User</node>
+    <node x="258.0" y="1084.0">\Notes\Domain\FactoryInterface</node>
+    <node x="0.0" y="1277.0">\Notes\Domain\ValueObject\Uuid</node>
+    <node x="188.0" y="0.0">\Notes\Domain\Entity\UserRepositoryInterface</node>
+    <node x="323.0" y="743.0">\Notes\Db\Adapter\PdoAdapter</node>
+    <node x="438.0" y="1084.0">\Notes\Domain\Entity\NotesRepositoryInterface</node>
+    <node x="0.0" y="810.0">\Notes\Db\Adapter\RdbmsAdpterInterface</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="\Notes\Domain\Entity\UserBuilder" target="\Notes\Domain\BuilderInterface">
+      <point x="0.0" y="-136.5" />
+      <point x="0.0" y="26.0" />
+    </edge>
+    <edge source="\Notes\Db\Adapter\PdoAdapter" target="\Notes\Db\Adapter\DbAdapterInterface">
+      <point x="0.0" y="-148.0" />
+      <point x="481.5" y="718.0" />
+      <point x="355.5" y="718.0" />
+      <point x="39.0" y="37.0" />
+    </edge>
+    <edge source="\Notes\Persistence\Entity\InMemoryUserRepository" target="\Notes\Domain\Entity\UserRepositoryInterface">
+      <point x="0.0" y="-148.0" />
+      <point x="164.0" y="253.0" />
+      <point x="261.0" y="253.0" />
+      <point x="-73.0" y="114.0" />
+    </edge>
+    <edge source="\Notes\Db\Adapter\RdbmsAdpterInterface" target="\Notes\Db\Adapter\DbAdapterInterface">
+      <point x="0.0" y="-81.0" />
+      <point x="151.5" y="718.0" />
+      <point x="277.5" y="718.0" />
+      <point x="-39.0" y="37.0" />
+    </edge>
+    <edge source="\Notes\Domain\Entity\UserFactory" target="\Notes\Domain\FactoryInterface">
+      <point x="0.0" y="-26.0" />
+      <point x="0.0" y="26.0" />
+    </edge>
+    <edge source="\Notes\Persistence\Entity\MysqlUserRepository" target="\Notes\Domain\Entity\UserRepositoryInterface">
+      <point x="0.0" y="-125.0" />
+      <point x="504.0" y="253.0" />
+      <point x="407.0" y="253.0" />
+      <point x="73.0" y="114.0" />
+    </edge>
+    <edge source="\Notes\Domain\ValueObject\Uuid" target="\Notes\Domain\ValueObject\StringLiteral">
+      <point x="0.0" y="-48.5" />
+      <point x="0.0" y="71.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="92.0" y="435.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Methods</Category>
+    <Category>Constructors</Category>
+    <Category>Constants</Category>
+    <Category>Fields</Category>
+  </Categories>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
